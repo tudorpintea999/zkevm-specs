@@ -9,7 +9,7 @@ The `ADDRESS` opcode gets the address of currently executing account.
 The `ADDRESS` opcode loads the callee address (20 bytes of data) from call
 context, then pushes this address to the stack.
 
-## Circuit behaviour
+## Circuit behavior
 
 1. Construct call context table in rw table
 2. Do busmapping lookup for call context callee read operation
